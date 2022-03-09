@@ -6,6 +6,7 @@ def handler(event, context):
   a = 5
   b = 6
   c = a +b
+  console.log(c)
   return {
       'statusCode': 200,
       'headers': {
@@ -13,5 +14,5 @@ def handler(event, context):
           'Access-Control-Allow-Origin': '*',
           'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
       },
-      'body': json.dumps(c)
+      'body': json.dumps()
   }
