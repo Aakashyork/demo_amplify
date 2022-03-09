@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/calc": {
+      "name": "/calc",
+      "lambdaFunction": "demoamplify5f780cc6",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
